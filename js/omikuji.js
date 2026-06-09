@@ -68,7 +68,7 @@ btn1.addEventListener(
       "img/snowflakes.png",
     ];
 
-    let n = Math.floor(Math.random() * 3);
+    let n = Math.floor(Math.random() * 6);
 
     omikujiText.textContent = resultText[n];
     omikujiText.style.color = resultColor[n];
